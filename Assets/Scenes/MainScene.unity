@@ -4215,11 +4215,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b5d873b652534f54fb382689325a8ed0, type: 3}
---- !u!1 &527309665 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6089694355922060607, guid: c6fe3920ddf70ea4bbf988dd627e64a6, type: 3}
-  m_PrefabInstance: {fileID: 4660046010521646717}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &529023547
 GameObject:
   m_ObjectHideFlags: 0
@@ -7646,21 +7641,25 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 540014418}
+    - target: {fileID: 3360786276963225083, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7197771663810940899, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 727415437}
     - target: {fileID: 7510542760111357264, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7536762739713857826, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7536762739713857826, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
@@ -8849,21 +8848,25 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 540014418}
+    - target: {fileID: 3360786276963225083, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7197771663810940899, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 727415437}
     - target: {fileID: 7510542760111357264, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7536762739713857826, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7536762739713857826, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
@@ -9894,21 +9897,25 @@ PrefabInstance:
       propertyPath: circuit
       value: 
       objectReference: {fileID: 540014418}
+    - target: {fileID: 3360786276963225083, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7197771663810940899, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 727415437}
     - target: {fileID: 7510542760111357264, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7536762739713857826, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7536762739713857826, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1968a0e742d171c4bb540f918bc0ace6, type: 3}
@@ -13764,69 +13771,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1060f28bab45ab94eb490830df68466e, type: 3}
---- !u!1 &1723799432
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1723799435}
-  - component: {fileID: 1723799434}
-  - component: {fileID: 1723799433}
-  m_Layer: 0
-  m_Name: OnlineController
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1723799433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1723799432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c38d7ecb28054b84e86469596beb132f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playersName: Server
-  playerGO: {fileID: 527309665}
-  onlineCars: []
-  onlineCarPrefab: {fileID: 2482892615088438313, guid: ac994b04bb55ff64e8e5867708ba1591, type: 3}
-  timeToSendData: 0.33
---- !u!114 &1723799434
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1723799432}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a85e146b7e5b2fc4083e9251e64f5248, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  serverIP: 192.168.1.36
-  serverSocket: 16384
---- !u!4 &1723799435
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1723799432}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1724386966 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 193c4ffb9d60d2148874c308bbd283a0, type: 3}
